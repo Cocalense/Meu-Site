@@ -66,7 +66,7 @@ hr{
 article{
     padding-top: 70px;
 }
-
+/* abaixo RODAPE, onde criei uma div chamada rodape, foi utilizado o verde para fins visuais, no final será excluído*/
 .rodape{
     float: left;
     background-color: green;
@@ -76,7 +76,9 @@ article{
     text-decoration: none;
     
 }
-
+/*
+foi criada uma lista dentro do rodape, a fim de dividir o conteudo e facilitar na configuração, cores e bordas também serão eliminadas no final
+*/
 .rodapeEsquerdo{
     width: 30%;
     height: 300px;
@@ -113,6 +115,8 @@ article{
     
 }
 
+/* configurando os icones das redes sociais*/
+
 .face_icon{
     display: inline;
     position: relative;
@@ -134,6 +138,7 @@ article{
     padding: 10px;
 
 }
+
 /* abaixo codigos do formulario*/
 
 form {
